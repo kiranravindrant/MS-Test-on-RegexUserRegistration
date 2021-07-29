@@ -25,6 +25,23 @@ namespace RegexTestProject
             Assert.AreEqual(result, true);
         }
 
+        [TestMethod]
+        public void TestMobileNumValidation()
+        {
+            bool result = Program.MobileNumValidation("91 9847256412");
+            Assert.AreEqual(result, true);
+        }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
