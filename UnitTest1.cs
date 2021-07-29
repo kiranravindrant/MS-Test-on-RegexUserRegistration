@@ -17,7 +17,13 @@ namespace RegexTestProject
             Assert.AreEqual(result, true);
         }
 
+        [TestMethod]
 
+        public void TestEmailValidation()
+        {
+            bool result = Program.EmailValidation("kiranravindrant@gmail.com");
+            Assert.AreEqual(result, true);
+        }
 
 
 
