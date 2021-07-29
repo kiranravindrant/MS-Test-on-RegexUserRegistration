@@ -32,8 +32,13 @@ namespace RegexTestProject
             Assert.AreEqual(result, true);
         }
 
+        [TestMethod]
 
-
+        public void TestPasswordValidation()
+        {
+            bool result = Program.PassValidation("K123@sxl");
+            Assert.AreEqual(result, true);
+        }
 
 
 
